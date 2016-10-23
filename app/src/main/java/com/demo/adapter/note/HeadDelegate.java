@@ -105,7 +105,6 @@ public class HeadDelegate extends AdapterDelegate<List<HomeModel>> {
             public void transformPage(View page, float position) {
                 if (position > 0 && position <= 1) {
                     int badgePosition = (int) (page.getX() / screenWidth) - 1;
-                    System.out.println(badgePosition);
                     PictureSize offsetModel = mPictureSizes.get(String.valueOf(badgePosition + 1));
                     if (offsetModel == null) return;
                     PictureSize nowModel = mPictureSizes.get(String.valueOf(badgePosition));
