@@ -27,8 +27,8 @@ import okhttp3.Response;
 
 public class RedBookData {
 
-    private static final String LIST_URL = "http://www.xiaohongshu.com/api/sns/v2/note/5787b2f5d1d3b95bcc277086/related?page=1&tag_oid=&platform=Android&deviceId=604fae2e-8a44-3b43-8297-ec5b00f7bf66&versionName=4.10.100&channel=Xiaomi&sid=session.1160904632837462555&lang=zh-CN&t=1477039748&sign=9f71b5df21235ed4def87098cff60d9c";
-    private static final String COMMENT_URL = "http://www.xiaohongshu.com/api/sns/v5/note/5787b2f5d1d3b95bcc277086?platform=Android&deviceId=604fae2e-8a44-3b43-8297-ec5b00f7bf66&versionName=4.10.100&channel=Xiaomi&sid=session.1160904632837462555&lang=zh-CN&t=1477039747&sign=9159b250c3ed4592cf8e13f7b8792a4b";
+    private static final String LIST_URL = "http://www.xiaohongshu.com/api/sns/v2/note/580d4fc936b2a84102ba4716/related?page=1&tag_oid=&platform=Android&deviceId=604fae2e-8a44-3b43-8297-ec5b00f7bf66&versionName=4.10.100&channel=Xiaomi&sid=session.1160904632837462555&lang=zh-CN&t=1477460298&sign=8d6d648f17a78e3c7d099957d7e19900";
+    private static final String COMMENT_URL = "http://www.xiaohongshu.com/api/sns/v5/note/580d4fc936b2a84102ba4716?platform=Android&deviceId=604fae2e-8a44-3b43-8297-ec5b00f7bf66&versionName=4.10.100&channel=Xiaomi&sid=session.1160904632837462555&lang=zh-CN&t=1477460298&sign=402ee8dd97ed4a52e8a2721e3cdb3933";
 
     public static void getRedBookDataAsy(final RedBookCallback callback) {
         if (callback == null) return;

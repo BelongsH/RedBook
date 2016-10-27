@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="editTextStyle">@style/EditTextTheme</item>
+        <item name="android:textViewStyle">@style/TextViewTheme</item>
+        <item name="android:windowBackground">@color/content_background</item> 
+        <item name="android:windowContentOverlay">@null</item>
+
     </style>
 
 </resources>

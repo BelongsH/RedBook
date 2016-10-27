@@ -91,7 +91,7 @@ public class HeadDelegate extends AdapterDelegate<List<HomeModel>> {
                     container.setLayoutParams(params);
                     imageView.requestLayout();
                 }
-                Glide.with(holder1.vpHeadDelegate.getContext()).load(mNoteModel.pictures.get(position).original).override(pictureSize.getScaleWidth(), pictureSize.getScaleHeight()).centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).into(imageView);
+                Glide.with(holder1.vpHeadDelegate.getContext()).load(mNoteModel.pictures.get(position).url).override(pictureSize.getScaleWidth(), pictureSize.getScaleHeight()).centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).into(imageView);
                 return imageView;
             }
 
